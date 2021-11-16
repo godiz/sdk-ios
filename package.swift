@@ -17,6 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "iZettleSDK",
-            path: "iZettleSDK/iZettleSDK.xcframework")
+            url: "https://github.com/iZettle/sdk-ios/releases/download/3.3.0/iZettleSDK.zip",
+            checksum: "5d294d5913afc7a43081191be385ce099fb4ee9c0ab62d47326449535700820d"
+        )
     ]
 )
