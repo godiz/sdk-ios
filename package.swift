@@ -17,8 +17,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "iZettleSDK",
-            url: "https://github.com/iZettle/sdk-ios/releases/download/3.3.0/iZettleSDK.zip",
-            checksum: "5d294d5913afc7a43081191be385ce099fb4ee9c0ab62d47326449535700820d"
+            url: "https://github.com/iZettle/sdk-ios-spm/releases/download/v1.0.0/iZettleSDK.xcframework.zip",
+            checksum: "318817ec7b38e0ca08434940727baddbcce60749036072ee3a5cb10febc75ccc"
+        ),
+        .binaryTarget(
+            name: "PaymentsSDK",
+            url: "https://github.com/iZettle/sdk-ios-spm/releases/download/v1.0.0/iZettlePayments.xcframework.zip",
+            checksum: "4563be9b750d8063ca06542c498d47ce62d3f15244cdb7f50d8d3f7caf2aae15"
         )
     ]
 )
